@@ -1,0 +1,10 @@
+S:\Repos2\Kuriimu-master\src\game\game_digimon_re_digitize_decode\obj\Debug\game_digimon_re_digitize_decode.csproj.AssemblyReference.cache
+S:\Repos2\Kuriimu-master\src\game\game_digimon_re_digitize_decode\obj\Debug\game_digimon_re_digitize_decode.csproj.GenerateResource.cache
+S:\Repos2\Kuriimu-master\src\game\game_digimon_re_digitize_decode\obj\Debug\game_digimon_re_digitize_decode.csproj.CoreCompileInputs.cache
+S:\Repos2\Kuriimu-master\src\game\game_digimon_re_digitize_decode\obj\Debug\game_digimon_re_digitize_decode.Properties.Resources.resources
+S:\Repos2\Kuriimu-master\src\Kuriimu\bin\Debug\plugins\game_digimon_re_digitize_decode.dll.config
+S:\Repos2\Kuriimu-master\src\Kuriimu\bin\Debug\plugins\game_digimon_re_digitize_decode.dll
+S:\Repos2\Kuriimu-master\src\Kuriimu\bin\Debug\plugins\game_digimon_re_digitize_decode.pdb
+S:\Repos2\Kuriimu-master\src\game\game_digimon_re_digitize_decode\obj\Debug\game_digimon_re_digitize_decode.Settings.resources
+S:\Repos2\Kuriimu-master\src\game\game_digimon_re_digitize_decode\obj\Debug\game_digimon_re_digitize_decode.dll
+S:\Repos2\Kuriimu-master\src\game\game_digimon_re_digitize_decode\obj\Debug\game_digimon_re_digitize_decode.pdb
