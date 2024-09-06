@@ -1,0 +1,12 @@
+MD runingneed\cci
+set /p dwrr=Enter the filename:
+runingneed\duat.exe -xvt0f cci runingneed\cci\0.cxi input\%dwrr%.3ds --header runingneed\cci\ncsdheader.bin
+MD runingneed\cci\cxi0
+runingneed\duat.exe -xvtf cxi runingneed\cci\0.cxi --header runingneed\cci\cxi0\ncchheader.bin --exh runingneed\cci\cxi0\exh.bin --logo runingneed\cci\cxi0\logo.bcma.lz --exefs runingneed\cci\cxi0\exefs.bin --romfs runingneed\cci\cxi0\romfs.bin --key0
+runingneed\duat.exe -xvtf romfs runingneed\cci\cxi0\romfs.bin --romfs-dir runingneed\cci\cxi0\romfs
+runingneed\duat.exe -xvtfu exefs runingneed\cci\cxi0\exefs.bin --exefs-dir runingneed\cci\cxi0\exefs --header runingneed\cci\cxi0\exefs\exefsheader.bin
+
+runingneed\duat.exe -cvtfz exefs runingneed\cci\cxi0\exefs.bin --header runingneed\cci\cxi0\exefs\exefsheader.bin --exefs-dir runingneed\cci\cxi0\exefs
+runingneed\duat.exe -cvtf romfs runingneed\cci\cxi0\romfs.bin --romfs-dir runingneed\cci\cxi0\romfs
+runingneed\duat.exe -cvtf cxi runingneed\cci\0.cxi --header runingneed\cci\cxi0\ncchheader.bin --exh runingneed\cci\cxi0\exh.bin --logo runingneed\cci\cxi0\logo.bcma.lz --exefs runingneed\cci\cxi0\exefs.bin --romfs runingneed\cci\cxi0\romfs.bin --key0
+runingneed\duat.exe -cvt0f cci runingneed\cci\0.cxi output\repack_dwrr64.3ds --header runingneed\cci\ncsdheader.bin
